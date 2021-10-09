@@ -11,12 +11,6 @@ class UserController extends Controller
 {
     //
 
-    public function showAll(){
-        //recucperar todos los registros de los usarios
-        $users = new UserLogica();
-        return $users->GetAllUsers();
-    }
-
     public function create(Request $request){
 
         $convertToUser = new User();
@@ -62,4 +56,11 @@ class UserController extends Controller
         $user = new UserLogica();
         return $user->GetUserById($id);
     }
+
+    public function showAll(){
+        //recucperar todos los registros de los usarios
+        $users = new UserLogica();
+        return $users->GetAllUsers();
+    }
+
 }
