@@ -12,6 +12,8 @@ class MedicionLogica
         $newMedicion = new Medicion();
         $newMedicion->fecha = $medicion->fecha;
         $newMedicion->lectura = $medicion->lectura;
+        $newMedicion->coordX = $medicion->coordX;
+        $newMedicion->coordY = $medicion->coordY;
         $newMedicion->user_id = $medicion->user_id;
 
         $newMedicion->save();

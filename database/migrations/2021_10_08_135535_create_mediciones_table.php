@@ -17,6 +17,8 @@ class CreateMedicionesTable extends Migration
             $table->id();
             $table->date('fecha');
             $table->double('lectura');
+            $table->double('coordX');
+            $table->double('coordY');
             $table->integer('user_id');
             $table->timestamps();
         });

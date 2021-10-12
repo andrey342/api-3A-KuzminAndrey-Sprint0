@@ -15,6 +15,8 @@ class MedicionController extends Controller
         $convertToMedicion = new Medicion();
         $convertToMedicion->fecha = $request->fecha;
         $convertToMedicion->lectura = $request->lectura;
+        $convertToMedicion->coordX = $request->coordX;
+        $convertToMedicion->coordY = $request->coordY;
         $convertToMedicion->user_id = $request->user_id;
 
         $returnMedicion = new MedicionLogica();
