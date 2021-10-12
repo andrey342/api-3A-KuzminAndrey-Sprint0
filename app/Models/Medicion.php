@@ -12,6 +12,8 @@ class Medicion extends Model
     protected $fillable = [
         'fecha',
         'lectura',
+        'coordX',
+        'coordY',
         'user_id',
     ];
 }
