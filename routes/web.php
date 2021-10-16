@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+/*Route::get('/insert',function (){
+   $stuRef= app('firebase.firestore')->database()->collection('Students')->newDocument();
+   $stuRef->set([
+       'name'=> 'dengue',
+       'age'=>25
+   ]);
+});*/
