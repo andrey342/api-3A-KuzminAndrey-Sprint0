@@ -23,4 +23,19 @@ https://trello.com/invite/b/tqvHxuCU/b01d6526fafdc5cade3ccfdd9cae404f/gti-3a-kuz
 
 //------------ Información de la aplicación  ---------------------------
 
+Rutas de acceso a los métodos GET/POST
+Para poder acceder a estar rutas hay que tener el xampp activado.
+
+➔ Obtener todas las mediciones de CO2
+
+http://localhost/api-3A-KuzminAndrey-Sprint0/public/medicionesCO2
+
+➔ Obtener la última medición de CO2
+
+http://localhost/api-3A-KuzminAndrey-Sprint0/public/ultimaMedicionCO2
+
+➔ Crear mediciones manuales de prueba para las colecciones.
+
+http://localhost/api-3A-KuzminAndrey-Sprint0/public/crearMedicion
+
 //---------------------------------------
